@@ -1,0 +1,118 @@
+2025-05-21 16:22:10,585 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B1s (Last cycle): $0.0000, VM Total Cost: $0.0000, Overall Total Cost: $0.0000
+2025-05-21 16:22:10,586 - INFO - ExecutorAgent: Simulating network latency of 0.84 seconds for vm-initiale
+2025-05-21 16:22:11,431 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:22:11,447 - INFO - ExecutorAgent: Action received for vm-initiale: scale_up
+2025-05-21 16:22:11,447 - INFO - ExecutorAgent: vm-initiale - Scaling up VM from Standard_B1s to Standard_B2s
+2025-05-21 16:22:11,448 - INFO - ExecutorAgent: vm-initiale - VM scaled up to Standard_B2s successfully
+2025-05-21 16:22:11,478 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B1s (Last cycle): $0.0000, VM Total Cost: $0.0000, Overall Total Cost: $0.0000
+2025-05-21 16:22:11,479 - INFO - ExecutorAgent: Simulating network latency of 0.44 seconds for vm-secondary
+2025-05-21 16:22:11,934 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:22:11,936 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:22:11,936 - INFO - ExecutorAgent: vm-secondary - Scaling up VM from Standard_B1s to Standard_B2s
+2025-05-21 16:22:11,936 - INFO - ExecutorAgent: vm-secondary - VM scaled up to Standard_B2s successfully
+2025-05-21 16:23:11,948 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B2s (Last cycle): $0.0007, VM Total Cost: $0.0007, Overall Total Cost: $0.0007
+2025-05-21 16:23:11,949 - INFO - ExecutorAgent: Simulating network latency of 0.90 seconds for vm-initiale
+2025-05-21 16:23:12,857 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:23:12,861 - INFO - ExecutorAgent: Action received for vm-initiale: scale_up
+2025-05-21 16:23:12,861 - INFO - ExecutorAgent: vm-initiale - Scaling up VM from Standard_B2s to Standard_B4ms
+2025-05-21 16:23:12,861 - INFO - ExecutorAgent: vm-initiale - VM scaled up to Standard_B4ms successfully
+2025-05-21 16:23:12,862 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B2s (Last cycle): $0.0007, VM Total Cost: $0.0007, Overall Total Cost: $0.0014
+2025-05-21 16:23:12,862 - INFO - ExecutorAgent: Simulating network latency of 0.95 seconds for vm-secondary
+2025-05-21 16:23:13,816 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:23:13,817 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:23:13,819 - INFO - ExecutorAgent: vm-secondary - Scaling up VM from Standard_B2s to Standard_B4ms
+2025-05-21 16:23:13,819 - INFO - ExecutorAgent: vm-secondary - VM scaled up to Standard_B4ms successfully
+2025-05-21 16:24:13,822 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0021, Overall Total Cost: $0.0027
+2025-05-21 16:24:13,822 - INFO - ExecutorAgent: Simulating network latency of 0.48 seconds for vm-initiale
+2025-05-21 16:24:14,306 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:24:14,318 - INFO - ExecutorAgent: Action received for vm-initiale: no_action
+2025-05-21 16:24:14,318 - INFO - ExecutorAgent: vm-initiale - No scaling needed
+2025-05-21 16:24:14,318 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0021, Overall Total Cost: $0.0041
+2025-05-21 16:24:14,318 - INFO - ExecutorAgent: Simulating network latency of 0.83 seconds for vm-secondary
+2025-05-21 16:24:15,159 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:24:15,163 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:24:15,163 - INFO - ExecutorAgent: vm-secondary - Already at maximum VM size, cannot scale up further
+2025-05-21 16:25:15,168 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0034, Overall Total Cost: $0.0055
+2025-05-21 16:25:15,168 - INFO - ExecutorAgent: Simulating network latency of 0.37 seconds for vm-initiale
+2025-05-21 16:25:15,547 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:25:15,549 - INFO - ExecutorAgent: Action received for vm-initiale: no_action
+2025-05-21 16:25:15,550 - INFO - ExecutorAgent: vm-initiale - No scaling needed
+2025-05-21 16:25:15,550 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0034, Overall Total Cost: $0.0068
+2025-05-21 16:25:15,550 - INFO - ExecutorAgent: Simulating network latency of 0.20 seconds for vm-secondary
+2025-05-21 16:25:15,766 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:25:15,770 - INFO - ExecutorAgent: Action received for vm-secondary: no_action
+2025-05-21 16:25:15,770 - INFO - ExecutorAgent: vm-secondary - No scaling needed
+2025-05-21 16:26:15,782 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0013, VM Total Cost: $0.0048, Overall Total Cost: $0.0082
+2025-05-21 16:26:15,782 - INFO - ExecutorAgent: Simulating network latency of 0.61 seconds for vm-initiale
+2025-05-21 16:26:16,396 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:26:16,400 - INFO - ExecutorAgent: Action received for vm-initiale: scale_up
+2025-05-21 16:26:16,400 - INFO - ExecutorAgent: vm-initiale - Already at maximum VM size, cannot scale up further
+2025-05-21 16:26:16,400 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0048, Overall Total Cost: $0.0095
+2025-05-21 16:26:16,400 - INFO - ExecutorAgent: Simulating network latency of 0.11 seconds for vm-secondary
+2025-05-21 16:26:16,523 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:26:16,528 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:26:16,529 - INFO - ExecutorAgent: vm-secondary - Already at maximum VM size, cannot scale up further
+2025-05-21 16:27:16,536 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0061, Overall Total Cost: $0.0109
+2025-05-21 16:27:16,536 - INFO - ExecutorAgent: Simulating network latency of 0.60 seconds for vm-initiale
+2025-05-21 16:27:17,147 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:27:17,150 - INFO - ExecutorAgent: Action received for vm-initiale: scale_up
+2025-05-21 16:27:17,150 - INFO - ExecutorAgent: vm-initiale - Already at maximum VM size, cannot scale up further
+2025-05-21 16:27:17,150 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0013, VM Total Cost: $0.0061, Overall Total Cost: $0.0122
+2025-05-21 16:27:17,150 - INFO - ExecutorAgent: Simulating network latency of 0.41 seconds for vm-secondary
+2025-05-21 16:27:17,575 - WARNING - ExecutorAgent: Network failure for vm-secondary! Instruction dropped
+2025-05-21 16:28:17,577 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0075, Overall Total Cost: $0.0136
+2025-05-21 16:28:17,578 - INFO - ExecutorAgent: Simulating network latency of 0.25 seconds for vm-initiale
+2025-05-21 16:28:17,843 - WARNING - ExecutorAgent: Network failure for vm-initiale! Instruction dropped
+2025-05-21 16:28:17,844 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0013, VM Total Cost: $0.0075, Overall Total Cost: $0.0149
+2025-05-21 16:28:17,844 - INFO - ExecutorAgent: Simulating network latency of 0.92 seconds for vm-secondary
+2025-05-21 16:28:18,781 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:28:18,783 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:28:18,783 - INFO - ExecutorAgent: vm-secondary - Already at maximum VM size, cannot scale up further
+2025-05-21 16:29:18,785 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0088, Overall Total Cost: $0.0163
+2025-05-21 16:29:18,787 - INFO - ExecutorAgent: Simulating network latency of 0.54 seconds for vm-initiale
+2025-05-21 16:29:19,335 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:29:19,337 - INFO - ExecutorAgent: Action received for vm-initiale: no_action
+2025-05-21 16:29:19,338 - INFO - ExecutorAgent: vm-initiale - No scaling needed
+2025-05-21 16:29:19,338 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0088, Overall Total Cost: $0.0177
+2025-05-21 16:29:19,338 - INFO - ExecutorAgent: Simulating network latency of 0.98 seconds for vm-secondary
+2025-05-21 16:29:20,331 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:29:20,334 - INFO - ExecutorAgent: Action received for vm-secondary: no_action
+2025-05-21 16:29:20,334 - INFO - ExecutorAgent: vm-secondary - No scaling needed
+2025-05-21 16:30:20,342 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0102, Overall Total Cost: $0.0190
+2025-05-21 16:30:20,343 - INFO - ExecutorAgent: Simulating network latency of 0.82 seconds for vm-initiale
+2025-05-21 16:30:21,173 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:30:21,175 - INFO - ExecutorAgent: Action received for vm-initiale: scale_up
+2025-05-21 16:30:21,176 - INFO - ExecutorAgent: vm-initiale - Already at maximum VM size, cannot scale up further
+2025-05-21 16:30:21,176 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0102, Overall Total Cost: $0.0204
+2025-05-21 16:30:21,176 - INFO - ExecutorAgent: Simulating network latency of 0.32 seconds for vm-secondary
+2025-05-21 16:30:21,500 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:30:21,502 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:30:21,502 - INFO - ExecutorAgent: vm-secondary - Already at maximum VM size, cannot scale up further
+2025-05-21 16:31:21,516 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0116, Overall Total Cost: $0.0218
+2025-05-21 16:31:21,516 - INFO - ExecutorAgent: Simulating network latency of 0.93 seconds for vm-initiale
+2025-05-21 16:31:22,450 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:31:22,454 - INFO - ExecutorAgent: Action received for vm-initiale: scale_up
+2025-05-21 16:31:22,454 - INFO - ExecutorAgent: vm-initiale - Already at maximum VM size, cannot scale up further
+2025-05-21 16:31:22,454 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0116, Overall Total Cost: $0.0231
+2025-05-21 16:31:22,454 - INFO - ExecutorAgent: Simulating network latency of 0.73 seconds for vm-secondary
+2025-05-21 16:31:23,197 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:31:23,200 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:31:23,200 - INFO - ExecutorAgent: vm-secondary - Already at maximum VM size, cannot scale up further
+2025-05-21 16:32:23,210 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0129, Overall Total Cost: $0.0245
+2025-05-21 16:32:23,210 - INFO - ExecutorAgent: Simulating network latency of 0.30 seconds for vm-initiale
+2025-05-21 16:32:23,518 - WARNING - ExecutorAgent: Network failure for vm-initiale! Instruction dropped
+2025-05-21 16:32:23,518 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0129, Overall Total Cost: $0.0259
+2025-05-21 16:32:23,518 - INFO - ExecutorAgent: Simulating network latency of 0.30 seconds for vm-secondary
+2025-05-21 16:32:23,829 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:32:23,832 - INFO - ExecutorAgent: Action received for vm-secondary: no_action
+2025-05-21 16:32:23,832 - INFO - ExecutorAgent: vm-secondary - No scaling needed
+2025-05-21 16:33:23,842 - INFO - ExecutorAgent: vm-initiale - Cost for Standard_B4ms (Last cycle): $0.0013, VM Total Cost: $0.0143, Overall Total Cost: $0.0272
+2025-05-21 16:33:23,842 - INFO - ExecutorAgent: Simulating network latency of 0.62 seconds for vm-initiale
+2025-05-21 16:33:24,469 - INFO - ExecutorAgent: Waiting for instructions for vm-initiale
+2025-05-21 16:33:24,471 - INFO - ExecutorAgent: Action received for vm-initiale: scale_up
+2025-05-21 16:33:24,472 - INFO - ExecutorAgent: vm-initiale - Already at maximum VM size, cannot scale up further
+2025-05-21 16:33:24,472 - INFO - ExecutorAgent: vm-secondary - Cost for Standard_B4ms (Last cycle): $0.0014, VM Total Cost: $0.0143, Overall Total Cost: $0.0286
+2025-05-21 16:33:24,473 - INFO - ExecutorAgent: Simulating network latency of 0.25 seconds for vm-secondary
+2025-05-21 16:33:24,735 - INFO - ExecutorAgent: Waiting for instructions for vm-secondary
+2025-05-21 16:33:24,738 - INFO - ExecutorAgent: Action received for vm-secondary: scale_up
+2025-05-21 16:33:24,738 - INFO - ExecutorAgent: vm-secondary - Already at maximum VM size, cannot scale up further

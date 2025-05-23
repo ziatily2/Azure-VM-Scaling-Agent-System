@@ -1,0 +1,126 @@
+2025-05-21 16:20:37,261 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:20:37,261 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:20:38,320 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 6.30%, Memory Available = 5875.88 MB, Disk Usage = 68.15%, Network Sent = 5.00 MB, Received = 42.49 MB
+2025-05-21 16:20:38,322 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:20:38,322 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:20:38,323 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:20:39,351 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 8.21%, Memory Available = 5935.58 MB, Disk Usage = 68.64%, Network Sent = 8.26 MB, Received = 53.21 MB
+2025-05-21 16:20:39,352 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:20:39,352 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:21:39,364 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:21:39,364 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:21:40,421 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 84.03%, Memory Available = 5954.90 MB, Disk Usage = 70.08%, Network Sent = 0.00 MB, Received = 53.81 MB
+2025-05-21 16:21:40,423 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:21:40,423 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:21:40,423 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:21:41,457 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 86.21%, Memory Available = 5937.59 MB, Disk Usage = 69.90%, Network Sent = 6.42 MB, Received = 45.84 MB
+2025-05-21 16:21:41,458 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:21:41,458 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:22:41,469 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:22:41,470 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:22:42,495 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 8.46%, Memory Available = 43.72 MB, Disk Usage = 63.52%, Network Sent = 0.00 MB, Received = 50.19 MB
+2025-05-21 16:22:42,496 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:22:42,496 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:22:42,496 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:22:43,527 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 1.84%, Memory Available = 52.84 MB, Disk Usage = 61.83%, Network Sent = 14.63 MB, Received = 44.86 MB
+2025-05-21 16:22:43,528 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:22:43,530 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:23:43,542 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:23:43,542 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:23:44,567 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 5.68%, Memory Available = 5771.84 MB, Disk Usage = 95.64%, Network Sent = 4.79 MB, Received = 45.61 MB
+2025-05-21 16:23:44,568 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:23:44,568 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:23:44,568 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:23:45,590 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 6.74%, Memory Available = 5754.46 MB, Disk Usage = 95.16%, Network Sent = 0.00 MB, Received = 57.74 MB
+2025-05-21 16:23:45,592 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:23:45,592 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:24:45,598 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:24:45,599 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:24:46,624 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 2.10%, Memory Available = 5736.55 MB, Disk Usage = 69.92%, Network Sent = 0.00 MB, Received = 59.67 MB
+2025-05-21 16:24:46,625 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:24:46,625 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:24:46,625 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:24:47,651 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 9.88%, Memory Available = 5771.65 MB, Disk Usage = 69.71%, Network Sent = 2.11 MB, Received = 46.02 MB
+2025-05-21 16:24:47,653 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:24:47,653 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:25:47,654 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:25:47,654 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:25:48,679 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 84.48%, Memory Available = 5812.86 MB, Disk Usage = 66.65%, Network Sent = 3.06 MB, Received = 52.59 MB
+2025-05-21 16:25:48,681 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:25:48,681 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:25:48,681 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:25:49,715 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 83.56%, Memory Available = 5860.83 MB, Disk Usage = 69.79%, Network Sent = 14.29 MB, Received = 44.57 MB
+2025-05-21 16:25:49,716 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:25:49,716 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:26:49,728 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:26:49,729 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:26:50,765 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 5.90%, Memory Available = 47.32 MB, Disk Usage = 69.53%, Network Sent = 0.00 MB, Received = 59.97 MB
+2025-05-21 16:26:50,767 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:26:50,767 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:26:50,767 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:26:51,798 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 12.10%, Memory Available = 55.13 MB, Disk Usage = 67.32%, Network Sent = 6.52 MB, Received = 66.50 MB
+2025-05-21 16:26:51,801 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:26:51,801 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:27:51,816 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:27:51,816 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:27:52,845 - INFO - MonitoringAgent: vm-initiale - CPU Usage = -2.22%, Memory Available = 5617.26 MB, Disk Usage = 95.85%, Network Sent = 6.41 MB, Received = 65.67 MB
+2025-05-21 16:27:52,846 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:27:52,846 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:27:52,847 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:27:53,878 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 3.73%, Memory Available = 5561.46 MB, Disk Usage = 96.06%, Network Sent = 2.69 MB, Received = 71.53 MB
+2025-05-21 16:27:53,879 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:27:53,879 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:28:53,890 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:28:53,891 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:28:54,944 - INFO - MonitoringAgent: vm-initiale - CPU Usage = -1.13%, Memory Available = 5516.38 MB, Disk Usage = 65.94%, Network Sent = 14.46 MB, Received = 72.97 MB
+2025-05-21 16:28:54,945 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:28:54,945 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:28:54,945 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:28:55,979 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 5.54%, Memory Available = 5490.34 MB, Disk Usage = 63.94%, Network Sent = 7.02 MB, Received = 62.94 MB
+2025-05-21 16:28:55,980 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:28:55,980 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:29:55,994 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:29:55,995 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:29:57,015 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 84.65%, Memory Available = 5364.06 MB, Disk Usage = 67.69%, Network Sent = 1.55 MB, Received = 74.02 MB
+2025-05-21 16:29:57,017 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:29:57,018 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:29:57,018 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:29:58,051 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 86.94%, Memory Available = 5441.90 MB, Disk Usage = 66.70%, Network Sent = 0.47 MB, Received = 59.35 MB
+2025-05-21 16:29:58,053 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:29:58,053 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:30:58,056 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:30:58,056 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:30:59,080 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 3.47%, Memory Available = 59.78 MB, Disk Usage = 70.21%, Network Sent = 7.44 MB, Received = 70.80 MB
+2025-05-21 16:30:59,082 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:30:59,082 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:30:59,082 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:31:00,118 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 5.28%, Memory Available = 54.23 MB, Disk Usage = 69.17%, Network Sent = 10.73 MB, Received = 75.87 MB
+2025-05-21 16:31:00,120 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:31:00,120 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:32:00,134 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:32:00,134 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:32:01,168 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 31.69%, Memory Available = 5622.29 MB, Disk Usage = 66.97%, Network Sent = 16.29 MB, Received = 75.24 MB
+2025-05-21 16:32:01,170 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:32:01,170 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:32:01,170 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:32:02,202 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 15.34%, Memory Available = 5534.43 MB, Disk Usage = 67.56%, Network Sent = 18.33 MB, Received = 70.06 MB
+2025-05-21 16:32:02,204 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:32:02,204 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:33:02,217 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:33:02,218 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:33:03,245 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 86.04%, Memory Available = 5337.98 MB, Disk Usage = 64.00%, Network Sent = 12.22 MB, Received = 175.50 MB
+2025-05-21 16:33:03,246 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:33:03,247 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:33:03,247 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:33:04,277 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 83.82%, Memory Available = 5230.38 MB, Disk Usage = 67.57%, Network Sent = 5.34 MB, Received = 170.76 MB
+2025-05-21 16:33:04,278 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:33:04,279 - INFO - Waiting for next monitoring cycle (60 seconds)
+2025-05-21 16:34:04,289 - INFO - MonitoringAgent: Running on Azure vm-initiale (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:34:04,290 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:34:05,324 - INFO - MonitoringAgent: vm-initiale - CPU Usage = 4.24%, Memory Available = 41.26 MB, Disk Usage = 63.76%, Network Sent = 4.89 MB, Received = 171.46 MB
+2025-05-21 16:34:05,325 - INFO - MonitoringAgent: Sent metrics for vm-initiale to DeciderAgent
+2025-05-21 16:34:05,325 - INFO - MonitoringAgent: Running on Azure vm-secondary (Standard_B1s) in SMA-Cloud-Project (West Europe)
+2025-05-21 16:34:05,325 - INFO - MonitoringAgent: Collecting metrics (CPU, memory, disk, and network)
+2025-05-21 16:34:06,359 - INFO - MonitoringAgent: vm-secondary - CPU Usage = 12.82%, Memory Available = 53.93 MB, Disk Usage = 68.39%, Network Sent = 21.58 MB, Received = 172.05 MB
+2025-05-21 16:34:06,361 - INFO - MonitoringAgent: Sent metrics for vm-secondary to DeciderAgent
+2025-05-21 16:34:06,361 - INFO - Waiting for next monitoring cycle (60 seconds)

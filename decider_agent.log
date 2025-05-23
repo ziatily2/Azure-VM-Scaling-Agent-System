@@ -1,0 +1,96 @@
+2025-05-21 16:20:55,490 - INFO - DeciderAgent: Simulating network latency of 0.34 seconds for vm-initiale
+2025-05-21 16:20:55,827 - WARNING - DeciderAgent: Network failure for vm-initiale! Message dropped
+2025-05-21 16:20:55,829 - INFO - DeciderAgent: Simulating network latency of 0.49 seconds for vm-secondary
+2025-05-21 16:20:56,329 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:20:56,346 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 8.21%, Memory Available = 5935.58 MB, Disk Usage = 68.64%, Network Sent = 8.26 MB, Received = 53.21 MB
+2025-05-21 16:20:56,379 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:21:56,381 - INFO - DeciderAgent: Simulating network latency of 0.73 seconds for vm-initiale
+2025-05-21 16:21:57,118 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:21:57,168 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 84.03%, Memory Available = 5954.90 MB, Disk Usage = 70.08%, Network Sent = 0.00 MB, Received = 53.81 MB
+2025-05-21 16:21:57,170 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:21:57,170 - INFO - DeciderAgent: Simulating network latency of 0.89 seconds for vm-secondary
+2025-05-21 16:21:58,069 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:21:58,082 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 86.21%, Memory Available = 5937.59 MB, Disk Usage = 69.90%, Network Sent = 6.42 MB, Received = 45.84 MB
+2025-05-21 16:21:58,084 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:22:58,097 - INFO - DeciderAgent: Simulating network latency of 0.44 seconds for vm-initiale
+2025-05-21 16:22:58,538 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:22:58,557 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 8.46%, Memory Available = 43.72 MB, Disk Usage = 63.52%, Network Sent = 0.00 MB, Received = 50.19 MB
+2025-05-21 16:22:58,558 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:22:58,558 - INFO - DeciderAgent: Simulating network latency of 0.22 seconds for vm-secondary
+2025-05-21 16:22:58,792 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:22:58,806 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 1.84%, Memory Available = 52.84 MB, Disk Usage = 61.83%, Network Sent = 14.63 MB, Received = 44.86 MB
+2025-05-21 16:22:58,808 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:23:58,810 - INFO - DeciderAgent: Simulating network latency of 0.15 seconds for vm-initiale
+2025-05-21 16:23:58,965 - WARNING - DeciderAgent: Network failure for vm-initiale! Message dropped
+2025-05-21 16:23:58,966 - INFO - DeciderAgent: Simulating network latency of 0.12 seconds for vm-secondary
+2025-05-21 16:23:59,090 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:23:59,108 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 6.74%, Memory Available = 5754.46 MB, Disk Usage = 95.16%, Network Sent = 0.00 MB, Received = 57.74 MB
+2025-05-21 16:23:59,109 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:24:59,113 - INFO - DeciderAgent: Simulating network latency of 0.39 seconds for vm-initiale
+2025-05-21 16:24:59,506 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:24:59,524 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 2.10%, Memory Available = 5736.55 MB, Disk Usage = 69.92%, Network Sent = 0.00 MB, Received = 59.67 MB
+2025-05-21 16:24:59,525 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:24:59,525 - INFO - DeciderAgent: Simulating network latency of 0.80 seconds for vm-secondary
+2025-05-21 16:25:00,334 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:25:00,348 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 9.88%, Memory Available = 5771.65 MB, Disk Usage = 69.71%, Network Sent = 2.11 MB, Received = 46.02 MB
+2025-05-21 16:25:00,349 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:26:00,364 - INFO - DeciderAgent: Simulating network latency of 0.89 seconds for vm-initiale
+2025-05-21 16:26:01,264 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:26:01,279 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 84.48%, Memory Available = 5812.86 MB, Disk Usage = 66.65%, Network Sent = 3.06 MB, Received = 52.59 MB
+2025-05-21 16:26:01,280 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:26:01,280 - INFO - DeciderAgent: Simulating network latency of 0.64 seconds for vm-secondary
+2025-05-21 16:26:01,925 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:26:01,939 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 83.56%, Memory Available = 5860.83 MB, Disk Usage = 69.79%, Network Sent = 14.29 MB, Received = 44.57 MB
+2025-05-21 16:26:01,940 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:27:01,946 - INFO - DeciderAgent: Simulating network latency of 0.33 seconds for vm-initiale
+2025-05-21 16:27:02,276 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:27:02,286 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 5.90%, Memory Available = 47.32 MB, Disk Usage = 69.53%, Network Sent = 0.00 MB, Received = 59.97 MB
+2025-05-21 16:27:02,287 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:27:02,288 - INFO - DeciderAgent: Simulating network latency of 0.28 seconds for vm-secondary
+2025-05-21 16:27:02,587 - WARNING - DeciderAgent: Network failure for vm-secondary! Message dropped
+2025-05-21 16:28:02,591 - INFO - DeciderAgent: Simulating network latency of 0.51 seconds for vm-initiale
+2025-05-21 16:28:03,109 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:28:03,128 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = -2.22%, Memory Available = 5617.26 MB, Disk Usage = 95.85%, Network Sent = 6.41 MB, Received = 65.67 MB
+2025-05-21 16:28:03,129 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:28:03,130 - INFO - DeciderAgent: Simulating network latency of 0.81 seconds for vm-secondary
+2025-05-21 16:28:03,956 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:28:03,970 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 3.73%, Memory Available = 5561.46 MB, Disk Usage = 96.06%, Network Sent = 2.69 MB, Received = 71.53 MB
+2025-05-21 16:28:03,971 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:29:03,987 - INFO - DeciderAgent: Simulating network latency of 0.94 seconds for vm-initiale
+2025-05-21 16:29:04,931 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:29:04,946 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = -1.13%, Memory Available = 5516.38 MB, Disk Usage = 65.94%, Network Sent = 14.46 MB, Received = 72.97 MB
+2025-05-21 16:29:04,948 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:29:04,948 - INFO - DeciderAgent: Simulating network latency of 0.56 seconds for vm-secondary
+2025-05-21 16:29:05,512 - WARNING - DeciderAgent: Network failure for vm-secondary! Message dropped
+2025-05-21 16:30:05,520 - INFO - DeciderAgent: Simulating network latency of 0.17 seconds for vm-initiale
+2025-05-21 16:30:05,708 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:30:05,726 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 84.65%, Memory Available = 5364.06 MB, Disk Usage = 67.69%, Network Sent = 1.55 MB, Received = 74.02 MB
+2025-05-21 16:30:05,727 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:30:05,728 - INFO - DeciderAgent: Simulating network latency of 0.42 seconds for vm-secondary
+2025-05-21 16:30:06,161 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:30:06,206 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 86.94%, Memory Available = 5441.90 MB, Disk Usage = 66.70%, Network Sent = 0.47 MB, Received = 59.35 MB
+2025-05-21 16:30:06,207 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:31:06,218 - INFO - DeciderAgent: Simulating network latency of 0.97 seconds for vm-initiale
+2025-05-21 16:31:07,192 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:31:07,216 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 3.47%, Memory Available = 59.78 MB, Disk Usage = 70.21%, Network Sent = 7.44 MB, Received = 70.80 MB
+2025-05-21 16:31:07,217 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:31:07,218 - INFO - DeciderAgent: Simulating network latency of 0.53 seconds for vm-secondary
+2025-05-21 16:31:07,755 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:31:07,768 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 5.28%, Memory Available = 54.23 MB, Disk Usage = 69.17%, Network Sent = 10.73 MB, Received = 75.87 MB
+2025-05-21 16:31:07,769 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:32:07,779 - INFO - DeciderAgent: Simulating network latency of 0.40 seconds for vm-initiale
+2025-05-21 16:32:08,183 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:32:08,200 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 31.69%, Memory Available = 5622.29 MB, Disk Usage = 66.97%, Network Sent = 16.29 MB, Received = 75.24 MB
+2025-05-21 16:32:08,201 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:32:08,202 - INFO - DeciderAgent: Simulating network latency of 0.60 seconds for vm-secondary
+2025-05-21 16:32:08,803 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:32:08,817 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 15.34%, Memory Available = 5534.43 MB, Disk Usage = 67.56%, Network Sent = 18.33 MB, Received = 70.06 MB
+2025-05-21 16:32:08,818 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
+2025-05-21 16:33:08,819 - INFO - DeciderAgent: Simulating network latency of 0.82 seconds for vm-initiale
+2025-05-21 16:33:09,643 - INFO - DeciderAgent: Waiting for data from vm-initiale
+2025-05-21 16:33:09,662 - INFO - DeciderAgent: Received data for vm-initiale: CPU Usage = 86.04%, Memory Available = 5337.98 MB, Disk Usage = 64.00%, Network Sent = 12.22 MB, Received = 175.50 MB
+2025-05-21 16:33:09,667 - INFO - DeciderAgent: Sent decision for vm-initiale to ExecutorAgent
+2025-05-21 16:33:09,668 - INFO - DeciderAgent: Simulating network latency of 0.26 seconds for vm-secondary
+2025-05-21 16:33:09,937 - INFO - DeciderAgent: Waiting for data from vm-secondary
+2025-05-21 16:33:09,952 - INFO - DeciderAgent: Received data for vm-secondary: CPU Usage = 83.82%, Memory Available = 5230.38 MB, Disk Usage = 67.57%, Network Sent = 5.34 MB, Received = 170.76 MB
+2025-05-21 16:33:09,953 - INFO - DeciderAgent: Sent decision for vm-secondary to ExecutorAgent
