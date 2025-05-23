@@ -1,142 +1,180 @@
-Azure VM Scaling Agent System
-Overview
-This project implements a multi-agent system using the SPADE framework to monitor and dynamically scale Azure virtual machines (VMs) based on real-time metrics such as CPU usage, memory usage, disk read, and network inbound traffic. The system consists of three main agents:
 
-MonitoringAgent: Collects metrics from Azure VMs using the Azure Monitor Query API.
-DeciderAgent: Analyzes metrics and decides whether to scale up, scale down, or take no action based on predefined thresholds.
-ExecutorAgent: Executes scaling decisions by adjusting VM sizes (e.g., from Standard_B1s to Standard_B2s or Standard_B4ms).
+# Azure VM Scaling Agent System
 
-The system is designed for the Azure cloud environment, specifically for VMs in the "SMA-Cloud-Project" resource group located in West Europe.
-Features
+## 🧠 Overview
 
-Monitors CPU, memory, disk read, and network inbound metrics for Azure VMs.
-Automatically scales VMs up or down based on threshold-based decision logic.
-Logs all agent activities and decisions for debugging and auditing.
-Uses SPADE for agent communication via XMPP.
-Simulates network latency and handles network failures (as seen in logs).
+This project implements a **multi-agent system** for dynamic Azure VM scaling using the [SPADE](https://spade-mas.readthedocs.io/en/latest/) framework. Agents monitor real-time metrics such as CPU, memory, disk I/O, and network traffic, then make autonomous decisions to scale VMs up or down using the Azure Compute Management API.
 
-Repository Structure
+### 👨‍💻 System Components
 
-monitoring_agent.py: Implements the MonitoringAgent to collect and send VM metrics.
-decider_agent.py: Implements the DeciderAgent to analyze metrics and make scaling decisions.
-monitor_cpu.py: A simple script to monitor local CPU usage (for testing or standalone use).
-test_install.py: Verifies the installation of required Python libraries.
-executor_agent.log: Sample log file showing ExecutorAgent activity (scaling actions and costs).
-monitoring_agent.log: Log file for MonitoringAgent (generated during runtime).
-decider_agent.log: Log file for DeciderAgent (generated during runtime).
+- **MonitoringAgent** – Gathers metrics from Azure Monitor.
+- **DeciderAgent** – Analyzes metrics and decides to scale up/down or maintain.
+- **ExecutorAgent** – (To be implemented) Executes scale actions on Azure VMs.
 
-Prerequisites
+> Built for Azure's `SMA-Cloud-Project` resource group in the `West Europe` region.
 
-Python 3.8+
-Azure Account with access to a subscription and the "SMA-Cloud-Project" resource group.
-XMPP Server (e.g., ejabberd or Openfire) for SPADE agent communication.
-Azure VMs named vm-initiale and vm-secondary in the specified resource group.
+---
 
-Required Python Libraries
-Install the required libraries using pip:
-pip install spade azure-identity azure-mgmt-compute azure-monitor-query psutil
+## 🚀 Features
 
-Setup Instructions
+- ⏱ Real-time monitoring of Azure VMs (CPU, memory, disk read, network).
+- 📈 Automatic VM scaling based on threshold logic.
+- 🗂 SPADE-powered agent communication over XMPP.
+- 🧾 Logging of all metrics, decisions, and actions.
+- ⚠ Simulated network latency & error resilience.
 
-Clone the Repository:
+---
+
+## 📁 Repository Structure
+
+```bash
+AzureVMScalingAgentSystem/
+├── monitoring_agent.py       # Collects and sends VM metrics
+├── decider_agent.py          # Makes scaling decisions
+├── monitor_cpu.py            # Local CPU monitoring (standalone)
+├── test_install.py           # Checks Python dependencies
+├── executor_agent.log        # Example ExecutorAgent log
+├── monitoring_agent.log      # Runtime logs for MonitoringAgent
+├── decider_agent.log         # Runtime logs for DeciderAgent
+````
+
+---
+
+## ⚙️ Prerequisites
+
+* Python 3.8+
+* Azure Subscription with access to `SMA-Cloud-Project` (West Europe)
+* XMPP Server (e.g., ejabberd, Openfire)
+* Azure VMs:
+
+  * `vm-initiale`
+  * `vm-secondary`
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
 git clone https://github.com/<your-username>/AzureVMScalingAgentSystem.git
 cd AzureVMScalingAgentSystem
 
+# Install required Python libraries
+pip install spade azure-identity azure-mgmt-compute azure-monitor-query psutil
+```
 
-Set Up Azure Credentials:
+---
 
-Ensure you have the Azure CLI installed and logged in (az login).
-The system uses DefaultAzureCredential for authentication, which supports Azure CLI, environment variables, or managed identities.
-Update the SUBSCRIPTION_ID in monitoring_agent.py to match your Azure subscription.
+## 🔐 Azure & XMPP Setup
 
+### 1. Azure Configuration
 
-Configure XMPP Server:
+* Install Azure CLI: [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+* Login with `az login`
+* Ensure `DefaultAzureCredential` is authorized
+* Update `SUBSCRIPTION_ID` in `monitoring_agent.py`
 
-Set up an XMPP server (e.g., ejabberd or Openfire).
-Create XMPP accounts for the agents with the following JIDs and passwords:
-MonitoringAgent: monitorilyas@jabber.fr / monitor123
-DeciderAgent: deciderilyas@jabber.fr / decider123
-ExecutorAgent: executorilyas@jabber.fr / executor123
+### 2. XMPP Agent Accounts
 
+Create XMPP accounts for agents:
 
-Update the JIDs and passwords in monitoring_agent.py and decider_agent.py if necessary.
+| Agent      | JID                       | Password      |
+| ---------- | ------------------------- | ------------- |
+| Monitoring | `monitorilyas@jabber.fr`  | `monitor123`  |
+| Decider    | `deciderilyas@jabber.fr`  | `decider123`  |
+| Executor   | `executorilyas@jabber.fr` | `executor123` |
 
+Update credentials in the respective Python files.
 
-Verify Dependencies:
+---
 
-Run test_install.py to ensure all required libraries are installed:python test_install.py
+## ✅ Dependency Check
 
+```bash
+python test_install.py
+```
 
+---
 
+## 💡 Usage
 
-Create Azure VMs (if not already created):
+1. **Start Monitoring Agent**
 
-Ensure two VMs (vm-initiale and vm-secondary) exist in the "SMA-Cloud-Project" resource group in the "West Europe" region.
-The system supports VM sizes: Standard_B1s (1 GB), Standard_B2s (4 GB), and Standard_B4ms (16 GB).
+   ```bash
+   python monitoring_agent.py
+   ```
 
+2. **Start Decider Agent**
 
+   ```bash
+   python decider_agent.py
+   ```
 
-Usage
+3. **Start Executor Agent** (if implemented)
 
-Start the MonitoringAgent:
-python monitoring_agent.py
+   ```bash
+   python executor_agent.py
+   ```
 
-This agent collects metrics every 60 seconds and sends them to the DeciderAgent.
+4. **Monitor Logs**
 
-Start the DeciderAgent:
-python decider_agent.py
+   * `monitoring_agent.log`
+   * `decider_agent.log`
+   * `executor_agent.log`
 
-This agent processes metrics and sends scaling decisions to the ExecutorAgent.
+5. **Stop Agents**
 
-Start the ExecutorAgent:
+   Use `CTRL + C` to gracefully shut down each agent.
 
-The executor_agent.py file is not provided but is referenced in the logs. Ensure it is implemented to receive and act on decisions from the DeciderAgent.
-Example command (assuming the file exists):python executor_agent.py
+---
 
+## 📊 Example Workflow
 
+1. MonitoringAgent detects `CPU = 85%` on `vm-initiale`.
+2. DeciderAgent triggers a `scale_up` action.
+3. ExecutorAgent scales the VM from `Standard_B1s` → `Standard_B2s`.
+4. Logs show action success and cost tracking.
 
+---
 
-Monitor Logs:
+## 📈 Log Insight (Sample)
 
-Check monitoring_agent.log, decider_agent.log, and executor_agent.log for runtime information.
-Logs include metrics, decisions, scaling actions, and costs.
+From `executor_agent.log` (May 21, 2025):
 
+* VMs were scaled from `B1s → B2s → B4ms`.
+* Max size (`B4ms`) reached within 2 minutes.
+* Scale-ups after reaching the limit were rejected.
+* Cost tracked: **\$0.0286** at `16:33:24`.
 
-Stop the Agents:
+---
 
-Press CTRL+C to stop each agent gracefully.
+## ⚠ Notes
 
+* `monitor_cpu.py` is for local CPU monitoring only.
+* `executor_agent.py` must be implemented to complete the system.
+* Stable XMPP connection is critical for agent communication.
+* Thresholds can be tuned in `decider_agent.py`.
 
+---
 
-Example Workflow
+## 🔮 Future Improvements
 
-MonitoringAgent collects metrics (e.g., CPU: 85%, Memory: 90%) for vm-initiale.
-DeciderAgent receives metrics, determines scaling is needed (e.g., CPU > 80%), and sends scale_up to ExecutorAgent.
-ExecutorAgent scales vm-initiale from Standard_B1s to Standard_B2s and logs the cost.
-If metrics later drop below thresholds (e.g., CPU < 20%), the system may scale down.
+* Implement full **ExecutorAgent** logic using Azure SDK.
+* Add **scale-down** logic based on usage drops.
+* Introduce **cost optimization** strategies.
+* Improve error handling for API/network issues.
+* Add a **dashboard** for real-time visualization.
 
-Log Analysis
-Based on executor_agent.log (dated May 21, 2025):
+---
 
-Both VMs (vm-initiale and vm-secondary) scaled up from Standard_B1s to Standard_B2s and then to Standard_B4ms within the first two minutes.
-After reaching Standard_B4ms (maximum size), further scale_up requests were rejected.
-Occasional network failures caused dropped instructions (e.g., at 16:27:17 for vm-secondary).
-Costs were tracked per cycle, with a total cost of $0.0286 by 16:33:24.
+## 📄 License
 
-Notes
+This project is licensed under the [MIT License](LICENSE).
 
-The monitor_cpu.py script is a standalone utility for local CPU monitoring and is not integrated with the agent system.
-The ExecutorAgent implementation is missing. It should handle scaling actions using the Azure Compute Management API.
-Ensure the XMPP server is stable to avoid communication issues between agents.
-Adjust thresholds in decider_agent.py (e.g., CPU_THRESHOLD_UPPER) to fine-tune scaling behavior.
+---
 
-Future Improvements
+## 🤝 Contributing
 
-Implement the ExecutorAgent to complete the system.
-Add support for scaling down VMs when metrics are consistently low.
-Introduce cost optimization logic to balance performance and expenses.
-Enhance error handling for Azure API failures.
-Add a web interface to visualize metrics and scaling decisions.
+Contributions and feedback are welcome! Please submit issues or pull requests.
 
-License
-This project is licensed under the MIT License.
+---
